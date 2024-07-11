@@ -120,6 +120,7 @@ input::-webkit-inner-spin-button{
     top: -5px; 
     pointer-events: none; 
     cursor: pointer; 
+    -webkit-appearance: none; 
 }
 
 input[type="range"]::-webkit-slider-thumb{
