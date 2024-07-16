@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Bookmarks</h1>
+    </header>
+    <main>
+        <selection class="bookmark-form">
+            <input type="url" name="url" id="urlInput" placeholder="Enter URL" pattern="htpps://.*" size="50" required>
+            <button id="addBookmark">
+                Add Bookmarks
+            </button>
+            <button id="deleteAll">
+                Delete All Bookmarks
+            </button>
+        </selection> 
+        <selection class="bookmarks">
+            <ul id="bookmarkList"></ul>
+        </selection>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
